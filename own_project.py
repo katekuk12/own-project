@@ -2,7 +2,7 @@ shopping_list = []
 
 def add_item():
     name = input("Provide the item name: ")
-    quantity = input("How many? ")
+    quantity = input("How many? "
     item = {
         "name": name,
         "quantity": quantity
